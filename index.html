@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Movie Gallery</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <header>
-            <img src="images/images.jpg" alt="logo">
-            <input type="text" placeholder="Search for movies">
+            <img src="images/images.jpg" alt="logo" class ="logo">
+            <input type="text" placeholder="Q Search for movies" class="search">
             <nav>
                <a href="#">movies</a>
                 <a href="#">tv shows</a> 
@@ -21,7 +22,7 @@
             <section>
                 <h1>Favorite movies</h1>
                 <p>These are the movies on our base</p>
-                <div>
+                <div class="movie_display">
                     <div class="movie">
                         <img src="images/interstellar.jpg" alt="Interstellar">
                         <h3>Interstellar</h3>
@@ -36,7 +37,7 @@
                     </div>   
                 </div>
             </section>
-            
+
             <section>
                 <h1>New Movies</h1>
                 <p>These are the new movies to watch</p>
