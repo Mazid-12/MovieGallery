@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang = 'en'>
-<head>
-    <meta charset="UTF-8">
-    <title>Movie Displayer</title>
+<html lang="en">
 
-</head>
-<body>
-    This is my first html project
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Gallery</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="images/images.jpg" alt="logo">
+            <input type="text" placeholder="Search for movies">
+            <nav>
+               <a href="#">movies</a>
+                <a href="#">tv shows</a> 
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1>Favorite movies</h1>
+                <p>These are the movies on our base</p>
+                <div>
+                    <div class="movie">
+                        <img src="images/interstellar.jpg" alt="Interstellar">
+                        <h3>Interstellar</h3>
+                    </div>
+                    <div>
+                        <img src="images/inception.jpg" alt="Inception">
+                        <h3>Inception</h3>  
+                    </div>
+                    <div>
+                        <img src="images/dune.jpg">
+                        <h3>Dune</h3>
+                    </div>   
+                </div>
+            </section>
+            
+            <section>
+                <h1>New Movies</h1>
+                <p>These are the new movies to watch</p>
+
+                <ul>
+                    <li>The Devil wears Prada</li>
+                    <li>Ballerina</li>
+                    <li>War Machine</li>
+                </ul> 
+            </section>
+        </main>
+
+        <footer>
+            <a href="#">About source</a>
+        </footer>
+        
+    </body>
 </html>
