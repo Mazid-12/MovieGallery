@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+body h1{
+    color: yellow;
+    border-radius: 10px;
+    font-size: 30px;
+}
+header{
+    background-color: rgb(25, 13, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar{
+    border-radius: 30px;
+    min-width: 230px;
+    min-height: 40px;
+}
+
+.header-text{
+    justify-content: space-between;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+
+
+
+
+

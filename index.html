@@ -1,58 +1,64 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Movie Gallery</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-
-    <body>
-        <header>
-            <img src="images/images.jpg" alt="logo" class ="logo">
-            <input type="text" placeholder="Q Search for movies" class="search">
-            <nav>
-               <a href="#">movies</a>
-                <a href="#">tv shows</a> 
-            </nav>
-        </header>
-
-        <main>
-            <section>
-                <h1>Favorite movies</h1>
-                <p>These are the movies on our base</p>
-                <div class="movie_display">
-                    <div class="movie">
-                        <img src="images/interstellar.jpg" alt="Interstellar">
-                        <h3>Interstellar</h3>
-                    </div>
-                    <div>
-                        <img src="images/inception.jpg" alt="Inception">
-                        <h3>Inception</h3>  
-                    </div>
-                    <div>
-                        <img src="images/dune.jpg">
-                        <h3>Dune</h3>
-                    </div>   
-                </div>
-            </section>
-
-            <section>
-                <h1>New Movies</h1>
-                <p>These are the new movies to watch</p>
-
-                <ul>
-                    <li>The Devil wears Prada</li>
-                    <li>Ballerina</li>
-                    <li>War Machine</li>
-                </ul> 
-            </section>
-        </main>
-
-        <footer>
-            <a href="#">About source</a>
-        </footer>
+<body>
+    <header>
+        <h1>movieGallery</h1>
+        <div class="header-text">
+            <a href="#">Filter</a>
+        <a href="#">Latest</a>
+        <a href="#">Categories</a>
+        <a href="#">Genre</a>
+        </div>
         
-    </body>
+        <input type="text" placeholder="Search for movies or shows" class="search-bar">
+        <div class="header-text">
+            <a href="#">home</a>
+            <a href="#">account</a> 
+        </div>
+        
+        
+    </header>
+    <main>
+        <div class="gallery">
+            <div class="movie-card">
+                <img src="./images/Interstellar.jpg" alt="movie_image">
+                <h2>Interstellar</h2>
+                <a href="#">imbd ratings</a>
+            </div>
+            <div class="movie-card">
+                <img src="./images/inception.jpg" alt="movie_image">
+                <h2>Inception</h2>
+                <a href="#">imbd ratings</a>
+            </div>
+            <div class="movie-card">
+                <img src="./images/dune.jpg" alt="movie_image">
+                <h2>Dune</h2>
+                <a href="#">imbd ratings</a>
+            </div>
+            <div class="movie-card">
+                <img src="./images/dark Knight.jpg" alt="movie_image">
+                <h2>The Dark Knight</h2>
+                <a href="#">imbd ratings</a>
+            </div>
+            <div class="movie-card">
+                <img src="./images/us.jpg" alt="movie_image">
+                <h2>Us</h2>
+                <a href="#">imbd ratings</a>
+            </div>
+        </div>
+        
+
+    </main>
+    <footer>
+         © 2026 Mazid
+    </footer>
+</body>
 </html>
