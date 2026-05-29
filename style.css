@@ -14,6 +14,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 100px;
+    
 }
 .search-bar{
     border-radius: 30px;
@@ -26,6 +28,14 @@ header{
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
+
+.gallery{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+}
+
 
 
 
