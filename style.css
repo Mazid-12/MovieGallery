@@ -1,66 +1,24 @@
 body{
-    background-color: black;
-    color: white;
     margin: 0;
 }
-
-header h1{
-    color: yellow;
-    border-radius: 10px;
-    font-size: 30px;
-}
-header{
-    background-color: rgb(25, 13, 68);
+.header-container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-shrink: 100px;
-    
-}
-.search-bar{
-    border-radius: 30px;
-    min-width: 230px;
-    min-height: 40px;
-}
-
-.header-text{
     justify-content: space-between;
-    font-weight: bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: rgb(159, 97, 218);
+   
+
+}
+.header-container h1{
+    border: 1px solid black;
+    color: white;
 }
 
-.gallery{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    flex: 1 1 300px;
-}
-.movie-card{
-    background-color: rgb(29, 14, 84);
+.header-container input{
     border-radius: 20px;
-    place-items: center;
+    padding: 8px;
+    width: 200px;
 }
-.movie-card p{
-    background-color: rgb(82, 72, 118);
-    border-radius: 10px;
-}
-
-main{
-    margin: 20px;
-}
-
-main h1{
-    justify-content: space-evenly;
-    display: flex;
-    font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.movie-card a{
-    display: flex;
-}
-
-
 
 
 
